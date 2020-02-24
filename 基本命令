@@ -1,0 +1,13 @@
+cd Desktop    进入桌面命令
+
+ls                   查看所在位置的全部文件名  
+
+mkdir 命令用来创建指定名称的目录，要求创建目录的用户在当前目录中具有写权限，并且指定的目录名不能是当前目录中已有的目录。mkdir命令是make directory的缩写。
+
+mkdir -p zhou/test  递归创建多个目录；mkdir -m 777 zhou 创建权限为777的目录；mkdir -vp zhou/test 创建目录显示信息；
+
+sudo apt-get install tree 安装tree命令； sudo apt-get update 升级软件；
+
+rm 命令的功能为删除一个目录中的一个或多个文件或目录，它也可以将谋改革目录及其下的所有文件及子目录均删除。对于链接文件，只会删除链接，源文件均保持不变。
+
+rm shiyanlou.log 删除shiyanlou.log文件，系统会先询问是否删除；rm -f shiyanlou.log 强行删除文件，系统不再提示；
